@@ -2,6 +2,7 @@
   "name": "codelabs-authorinfo",
   "displayName": "AuthorInfo",
   "description": "Add Author Information to source files.",
+  "repository": "https://github.com/izzyjere/vscode-authorinfo",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.93.0"
