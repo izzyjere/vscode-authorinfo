@@ -94,11 +94,12 @@ export function activate(context: vscode.ExtensionContext) {
 
             // Block comment template for author information
             const authorInfo = `
-                * Author: ${authorFullName}
-                * Email: ${authorEmail}
-                ${authorOrganization ? `* Organization: ${authorOrganization}\n` : ''}
-                ${githubProfile ? `* GitHub: ${githubProfile}\n` : ''}
-                * Date: ${currentDate}
+* Author: ${authorFullName}
+* Email: ${authorEmail}
+${authorOrganization ? `* Organization: ${authorOrganization}\n` : ''}
+${githubProfile ? `* GitHub: ${githubProfile}\n` : ''}
+_________________________________________________________________
+* Date: ${currentDate}
             `;
 
             const workspaceFolders = vscode.workspace.workspaceFolders;
