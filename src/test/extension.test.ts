@@ -1,3 +1,16 @@
+/*
+
+* Author: Wisdom Jere
+* Email: wisdomjere5@gmail.com
+* Organization: Codelabs Zambia
+
+* GitHub: https://github.com/izzyjere
+
+_________________________________________________________________
+* Date: Tue Sep 10 2024
+            
+*/
+
 import * as assert from 'assert';
 import * as vscode from 'vscode';
 import * as path from 'path';
